@@ -122,3 +122,21 @@ header nav ul li a:hover{
 .ourservices h3,h4{
 	font-weight: bold;
 }
+
+.portfolio{
+	margin-bottom: 60px;
+	background-color: #e67c22;
+	padding-top: 60px;
+	padding-bottom: 140px;
+	color: white;
+}
+
+.portfolio p{
+	margin-bottom: 60px;
+	color: white;
+}
+
+.portfolio h3{
+	color: white;
+	font-weight: bold;
+}

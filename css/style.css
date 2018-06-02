@@ -260,3 +260,74 @@ header nav ul li a:hover{
 	transition: .3s ease;
 
 }
+
+/*CONTACT*/
+
+.header-contact{
+	background-color: #DCDCDC;
+	padding-top: 60px;
+	padding-bottom: 140px;
+	color: white;
+
+}
+
+.content-contact{
+	margin-bottom: 60px;
+	background-color: #e67c22;
+	padding-top: 60px;
+	padding-bottom: 140px;
+	color: white;
+}
+
+.content-contact p{
+	margin-bottom: 60px;
+	color: white;
+}
+
+.content-contact h3{
+	color: white;
+	font-weight: bold;
+}
+
+/*CSS CONTACT*/
+
+
+
+
+#map {
+    height: 500px;
+    width: 100%;
+    border-radius: 100%;
+    padding-top: 50px;
+
+}
+
+.contact-area{
+	margin-top: 0px;
+	background-image:url(../img/hero.jpg);
+	background-size: cover;
+	height: 800px;
+	
+}
+.header-content{
+	padding-bottom: 80px;
+	margin-top:100px; 
+}
+
+.header-content h1{
+	color: darkred;
+}
+
+.map{
+	border: 5px solid white;
+	border-radius: 100%;
+}
+.contact-area h5{
+	padding-top: 50px;
+	font-size: 40px;
+	color: white;
+}
+.contact-area p{
+	font-size: 20px;
+	color: white;
+}

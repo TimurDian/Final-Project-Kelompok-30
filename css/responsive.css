@@ -39,7 +39,7 @@
 		width: 200px;
 	}
 
-	.slicknav_nav li{
+	.slicknav_nav li .fa{
 		margin: 0;
 		padding: 0;
 		height: 3em;
@@ -63,4 +63,23 @@
 		background: none;
 	}
 
+}
+
+
+@media screen and (max-width:992px)
+{
+
+	.slider a{
+		display: inline-block;
+		width: 100%;
+	}
+
+	.slider .button{
+		margin-top: 30px;
+	}
+
+	header a img{
+		width: 150px;
+		margin-left: 10px;
+	}
 }

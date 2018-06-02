@@ -236,4 +236,27 @@ header nav ul li a:hover{
 	padding-top: 10px;
 }
 
+.team-block:hover .team-description{
+	background-color: deepskyblue;
+	color: white;
+	transition: 0.3s ease;
+}
 
+.team-block:hover .title h2,
+.team-block:hover .title span{
+	color: white;
+	transition: .3s ease;
+}
+
+.team-block:hover .team-description p{
+	color: #f9f9f9;
+	transition: .3s ease; 
+}
+
+.team-block:hover .team-social-network{
+	border-color: white;
+	background-color: deepskyblue;
+	color: white;
+	transition: .3s ease;
+
+}

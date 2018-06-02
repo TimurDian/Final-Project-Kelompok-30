@@ -32,6 +32,8 @@ jQuery(document).ready(function(){
 		responsive:true,
 		width:'100%;',
 		circular:true, 
+		prev:'#prev',
+		next:'#next',
 
 		scroll:
 			{

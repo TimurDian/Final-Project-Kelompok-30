@@ -28,7 +28,7 @@ jQuery(document).ready(function(){
 				
 	});
 
-	$('.portfolio-carousel').carouFredSel({
+	$('.menumakan-carousel').carouFredSel({
 		responsive:true,
 		width:'100%;',
 		circular:true, 
@@ -86,4 +86,27 @@ $('#menu').slicknav({
 	label:'',
 	})
 
+});
+
+
+// Paralax
+
+$(window).scroll(function() {
+	var wScroll = $(this).scrollTop();
+
+	$('.jumbotron img').css({
+		'transform':'translate(0px,'+wScroll/4+'%)'
+	});
+
+	$('.jumbotron h1').css({
+		'transform':'translate(0px,'+wScroll/2+'%)'
+	});
+
+	$('.jumbotron h3').css({
+		'transform':'translate(0px,'+wScroll/2+'%)'
+	});
+
+	$('.jumbotron h2').css({
+		'transform':'translate(0px,'+wScroll/2+'%)'
+	});
 });

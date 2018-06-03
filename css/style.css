@@ -7,10 +7,12 @@
 body{
 	overflow-x:hidden;
 	
+
+	
 }
 
 .secondary{
-	background-color: #34495e;
+	background-color:#202123;
 }
 
 header{
@@ -25,21 +27,29 @@ header{
 ul{
 	list-style: none;
 
+
 }
 
 ul li{
 	display: inline-block;
+	font-size: 12px;
+
+
 }
 
 header nav{
 	float: right;
+
 }
 
 header nav ul li a{
 	padding-right:40px;
 	color: white;
 	font-weight: bold;
+	font-size: 12px;
 	transition: all 0.5s case-in;
+	font-family:Cursive;
+
 }
 
 header nav ul li a:hover{
@@ -49,15 +59,15 @@ header nav ul li a:hover{
 }
 
 .img1{
-	background-image: url(..//img/34.jpg);
+	background-image: url(..//img/c1.jpg);
 }
 
 .img2{
-	background-image: url(..//img/2323.jpg);
+	background-image: url(..//img/c2.jpg);
 }
 
 .img3{
-	background-image: url(..//img/hero.jpg);
+	background-image: url(..//img/c3.jpg);
 }
 
 .slider ul li{
@@ -68,19 +78,22 @@ header nav ul li a:hover{
 }
 
 .white{
-	color: #e74c3c;
+	color: white;
 }
+
 
 .slider h2{
-	font-size: 40px;
+	font-size: 60px;
 	margin-top: 400px;
 	font-weight: bold;
-	font-family: verdana;
+	text-shadow: 10px solid black;
+	font-family: American Typewriter;
 
 }
 
+
 .slider p{
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .slider .btn{
@@ -103,8 +116,37 @@ header nav ul li a:hover{
 	color: white;
 }
 
-.ourservices{
-	margin-top: 20px;
+.ourresto h2{
+	padding-top: 100px;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: American Typewriter;
+
+
+}
+.ourresto p{
+	font-size: 20px;
+	padding-top: 20px;
+	font-family: OCR A Std;
+
+
+}
+
+
+.director{
+	margin-top: 100px;
+}
+.director .bag1{
+	
+}
+
+.director .bag2{
+
+}
+
+/*.ourservices{
+	margin-top: 0px;
+
 }
 
 .gaps{
@@ -119,34 +161,37 @@ header nav ul li a:hover{
 	font-size: 20px;
 }
 
-.ourservices h3,h4{
+.ourservices h2 {
+	font-size: 30px;
 	font-weight: bold;
+	font-family: American Typewriter;
 }
-
-.portfolio{
-	margin-bottom: 60px;
-	background-color: #e67c22;
+*/
+.menumakan{
+	
+	background-color: #202123;
 	padding-top: 60px;
-	padding-bottom: 140px;
+	margin-top: 100px;
 	color: white;
 }
 
-.portfolio p{
+.menumakan p{
 	margin-bottom: 60px;
 	color: white;
 }
 
-.portfolio h3{
+.menumakan h2{
 	color: white;
 	font-weight: bold;
+	padding-bottom: 30px;
 }
 
-.portfolio .portfolio-nav{
+.menumakan .menumakan-nav{
 	text-align: center;
 	margin-top: 50px;
 }
 
-.portfolio .portfolio-nav a{
+.menumakan .menumakan-nav a{
 	margin-right: 10px;
 	padding: 5px 8px;
 	border:2px solid white;
@@ -157,12 +202,73 @@ header nav ul li a:hover{
 
 }
 
-.portfolio .portfolio-nav a:hover{
+.menumakan .menumakan-nav a:hover{
 	background-color: #e74e3c;
 }
 
+
+
+.paralax{
+	width: 1400px;
+	height: 1000px;
+	background-image: url(../img/hero.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.paralax2{
+	width: 100%;
+	height: 1000px;
+	background-image: url(../img/resto.jpg);
+	background-position: 0 -130px; 
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.paralax h1{
+	padding-top: 100px;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: American Typewriter;
+	padding-bottom: 20px;
+}
+
+.paralax h3{
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-family: American Typewriter;
+	font-size: 20px;
+
+}
+
+.footer{
+	background-color: #202123;
+	height: 100px;
+	width: 100%;
+}
+
+.footer h3{
+	color: white;
+	line-height: 60px;
+}
+
+.paralax p{
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+
+.thum{
+	padding-top: 100px;
+}
+
+
+
 .team-area{
 	margin-top: 50px;
+	overflow: hidden;
 }
 
 
@@ -335,3 +441,45 @@ header nav ul li a:hover{
    
 }
 
+
+/*About*/
+.jumbotron{
+	background-image: url(../img/par2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -550px;
+	overflow: hidden;
+}
+
+.jumbotron img{
+	width: 200px;
+	height: 200px;
+	border: 5px solid white;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+
+}
+
+.jumbotron h1, .jumbotron p{
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron h3, .jumbotron p{
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	margin-top: 0px;
+}
+
+.jumbotron h2, .jumbotron p{
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	margin-top: 0px;
+}
+
+
+.parx {
+	height: 500px;
+	width: 80%;
+	background-color: red;
+}
+
+.col .parx .par1{
+	background-attachment: fixed;
+}

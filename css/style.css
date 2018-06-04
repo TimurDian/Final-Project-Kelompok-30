@@ -2,6 +2,7 @@
 {
 	padding: 0px;
 	margin: 0px;
+	
 }
 
 body{
@@ -134,7 +135,9 @@ header nav ul li a:hover{
 
 
 .director{
+
 	margin-top: 100px;
+	
 }
 .director .bag1{
 	
@@ -405,58 +408,18 @@ header nav ul li a:hover{
 
 /*CSS CONTACT*/
 
-
-.area-contact{
-	padding-top:200px; 
-	background-image: url(../img/hero.jpg);
-	background-repeat: no-repeat;
-
-	width: 100%;
-	height: 100%;
-}
-
-.area-contact .container{
-
-	background-color:white ;
-	width: 80%;	
-}
-
-.title-contact h2{
-	margin-top: -40px;
-	margin-left: 450px;
-	width: 250px;
-	background-color: #e67c22;
-	font-weight: bold;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	position: relative;
-	border-radius: 10%;
-}
-
-.title-map h2{
-	font-weight: bold;
-	font-size: 15px;
-	padding-bottom: 10px;
-}
-
-
-#map {
-	margin-top: 20px;
-    height: 500px;
-    width: 80%;
-    margin-left: 110px;
-    border:5px solid #e67c22;
-   
-}
-
-
-/*About*/
 .jumbotron{
+	height: 500px;
 	background-image: url(../img/par2.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 0 -750px;
 	overflow: hidden;
+	color: white;
+}
+
+.title-jumb{
+	color: white;
 }
 
 .jumbotron img{
@@ -481,8 +444,43 @@ header nav ul li a:hover{
 	margin-top: 0px;
 }
 
+.area-contact{
+	padding-top:200px; 
+	background-repeat: no-repeat;
 
-.parx {
+	width: 100%;
+	height: 100%;
+}
+
+.area-contact .container{
+
+	background-color:white ;
+	width: 80%;	
+}
+
+
+.title-map h2{
+	font-weight: bold;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+
+#map {
+	margin-top: 20px;
+    height: 500px;
+    width: 80%;
+    margin-left: 110px;
+    border:5px solid rgba(0,0,0,0.8);
+   
+}
+
+
+/*About*/
+
+
+
+/*.parx {
 	height: 500px;
 	width: 80%;
 	background-color: red;
@@ -534,4 +532,66 @@ header nav ul li a:hover{
 	text-align: center;
 	margin: 0;
 	padding: 1em 0;
+}*/
+
+.pimg1, .pimg2, .pimg3{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.pimg1{
+	padding-top: 800px;
+	background-image: url(../img/resto.jpg);
+	min-height: 100%;
+}
+
+.pimg2{
+	background-image: url(../img/34.jpg);
+	min-height: 400px;
+}
+
+.pimg3{
+	background-image: url(../img/323.jpg);
+	min-height: 400px;
+}
+
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-light{
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.section-dark{
+	background-color: #282e34;
+	color: #666;
+}
+
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.ptext .border{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+
+.ptext .border.trans{
+	background-color: transparent;
 }

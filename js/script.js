@@ -106,7 +106,6 @@ $(window).scroll(function() {
 		'transform':'translate(0px,'+wScroll/2+'%)'
 	});
 
-	$('.jumbotron h2').css({
-		'transform':'translate(0px,'+wScroll/2+'%)'
-	});
+
+	
 });
